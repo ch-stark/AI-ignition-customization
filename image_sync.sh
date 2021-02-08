@@ -2,9 +2,9 @@
 
 AI_IMAGE_LIST_FILE=./ai_image_list
 ICSP_FILE=./ICSP.yaml
-PULL_SECRET=/home/kni/ipv6/pull_secret.json
+PULL_SECRET=/root/combined-secret.json
 EXTERNAL_REG=quay.io
-INTERNAL_REG=bm-cluster-1-hyper.e2e.bos.redhat.com:5000
+INTERNAL_REG=registry.ocp-edge-cluster-0.qe.lab.redhat.com:5000
 TOTAL_IMAGES=$(cat ${AI_IMAGE_LIST_FILE}| wc -l)
 COUNTER=1
 
