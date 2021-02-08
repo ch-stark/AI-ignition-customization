@@ -1,5 +1,5 @@
 TOKEN="sha256~hewIlJBbbwxYmduOaODjgDa7DRWDWh18XRWDRTv8pg0"
-ASSISTED_SERVICE_IP="assisted-installer-ui.apps.mgmt-hub.e2e.bos.redhat.com"
+ASSISTED_SERVICE_IP="assisted-installer-ui.apps.ocp-edge-cluster-0.qe.lab.redhat.com"
 ASSISTED_SERVICE_PORT="80"
 IGNITION_FOLDER='ignition_files'
 DISCV_IGN_TMPL_FILENAME='discovery-ignition_template.json'
